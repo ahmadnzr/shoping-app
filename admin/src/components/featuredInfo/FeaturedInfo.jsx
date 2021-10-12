@@ -5,7 +5,7 @@ import { userRequest } from "../../requestMethod";
 
 export default function FeaturedInfo() {
   const [income, setIncome] = useState([]);
-  const [perc, setPerc] = useState();
+  const [perc, setPerc] = useState(0);
 
   useEffect(() => {
     const getIncome = async () => {
